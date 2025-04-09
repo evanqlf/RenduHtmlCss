@@ -48,25 +48,24 @@ body {
 }
 
 .sect2{
+text-align: center;
     .titre1{
         text-align: center;
     }
-    .texte1{
-        text-align: center;
-    }
-    .img2{
-        w
-    }
+    background-color: #9a2b89;
 }
 
+
 .card {
-    background-color:red ;
+    background-color: grey;
+    justify-content: center;
+    height: 300px;
     width: 24%;
     padding: 40px;
     margin: 50px auto;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 10px 10px 10px 10px color rgb(235, 7, 7) green blue;
+    box-shadow: 1px 1px 30cap 2px color rgb(255, 4, 4) rgb(10, 10, 10) rgb(255, 6, 238);
     display: inline-block;
     justify-content: space-around;
     align-items: center;
@@ -76,5 +75,49 @@ body {
     }
 }
 
+#titreCard{
+color: #5ce417;
+}
 
+.sect3{
+    background-color: #9a2b89;
+    text-align: center;
+}
 
+.card3{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 5%;
+}
+
+.sect4{
+    text-align: center;
+        .titre1{
+            text-align: center;
+        }
+        background-color: #9a2b89;
+    }
+
+#prix{
+    color: blue;
+    font-weight: bold;  
+}
+
+.sect5{
+    background-color: grey;
+    justify-content: center;
+    height: 300px;
+    width: 24%;
+    padding: 40px;
+    margin: 50px auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 1px 1px 30cap 2px color rgb(255, 4, 4) rgb(10, 10, 10) rgb(255, 6, 238);
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.contact{
+    text-align: center; 
+}

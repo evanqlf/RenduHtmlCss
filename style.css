@@ -1,7 +1,7 @@
 header {
-    background-color: #2a2727;
-    color: #fff;
-    padding: 20px;
+    background-color: #ffffffdc;
+    color: #171717;
+    padding: 0px;
     align-items: center;
     width: 100%;
 }
@@ -9,6 +9,7 @@ header {
 body {
     width: 1280px;
     margin: auto;
+    background-color: #181818;
 }
 
 .lienlogo{
@@ -16,11 +17,19 @@ body {
     height: auto;
 }
 
+.lien0{
+    text-decoration: dashed;
+    color: #181818;
+}
+
 .lien1{
   top: 60px;
   position: absolute;
   left: 74%;
   font-size: 30px;
+  text-decoration: dashed;
+  color: #181818;
+  font-weight: bold;
 }
 
 .lien2{
@@ -28,6 +37,9 @@ body {
     position: absolute;
     left: 88%;
     font-size: 30px;
+    text-decoration: dashed;
+    color: #181818;
+    font-weight: bold;
 }
 
 .sect1{
@@ -35,7 +47,13 @@ body {
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color: #9dd581;
+    background-color: #181818;
+        .texte3{
+            color: #ffffff;
+        }
+        .texte4{
+            color: #ffffff;
+        }
     
     .img1{
         width:30%;
@@ -51,13 +69,17 @@ body {
 text-align: center;
     .titre1{
         text-align: center;
+        color: #ffffff;
     }
-    background-color: #9a2b89;
+    .texte1{
+        color: #ffffff;
+    }
+    background-color: #181818;
 }
 
 
 .card {
-    background-color: grey;
+    background-color: rgba(255, 255, 255, 0.616);
     justify-content: center;
     height: 300px;
     width: 24%;
@@ -76,12 +98,16 @@ text-align: center;
 }
 
 #titreCard{
-color: #5ce417;
+color: #000000;
 }
 
 .sect3{
-    background-color: #9a2b89;
+    background-color: #131313;
+    color: #fff;
     text-align: center;
+    height: 100px;
+    margin: 0%;
+    padding: 30px;
 }
 
 .card3{
@@ -96,28 +122,112 @@ margin: 5%;
         .titre1{
             text-align: center;
         }
-        background-color: #9a2b89;
+        .texte2{
+            color: #ffffff;
+        }
+        background-color: #181818;
     }
 
 #prix{
-    color: blue;
+    color: rgb(255, 0, 0);
     font-weight: bold;  
 }
 
-.sect5{
-    background-color: grey;
-    justify-content: center;
-    height: 300px;
-    width: 24%;
-    padding: 40px;
-    margin: 50px auto;
-    border-radius: 20px;
-    text-align: center;
-    box-shadow: 1px 1px 30cap 2px color rgb(255, 4, 4) rgb(10, 10, 10) rgb(255, 6, 238);
-    display: inline-block;
-    justify-content: space-around;
+.sect5 {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 20px;
+    
+}
+
+.sect5 {
+    width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .contact{
-    text-align: center; 
+    color: #ffffff;
 }
+
+.form-row {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-row .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group h3 {
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+.form-group input[type="text"] {
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+#message-group {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#envoyer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#envoyer:hover {
+    background-color: #45a049;
+}
+
+h2.contact {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffffdc;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}
+
+.logofooter {
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.phrasedaccroche {
+    font-size: 16px;
+    margin: 0;
+}
+
+a.logo-lien {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.copyright {
+    margin-top: 10px;
+    color: rgb(100, 98, 98);
+  }
